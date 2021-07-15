@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(10, 10, 8);
+}
+
+#container {
+    width:auto ;
+    height:auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(bgImg.jpg);
+    margin: 15px auto;
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #588caf;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result {
+    height: 120px;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(119, 218, 6)
+}
+
+#output {
+    text-align: right;
+    height: 50px;
+    margin: 30px 10px;
+    font-size: 30px;
+    background-color: rgb(65, 63, 63);
+    color: rgb(119, 218, 6)
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator,
+.number,
+.empty {
+    width: 50px;
+    height: 45px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.number
+ {
+    background-color: #36553a;
+}
+.empty{
+    background-color: #588caf;
+}
+
+.number,
+.operator {
+    cursor: progress;
+}
+
+.operator:active,
+.number:active {
+    font-size: 13px;
+}
+
+.operator:focus,
+.number:focus,
+.empty:focus {
+    outline: 0;
+}
+
+button:nth-child(1) {
+    font-size: 25px;
+    background-color: lightcoral;
+}
+
+button:nth-child(2) {
+    font-size: 25px;
+    background-color: olivedrab;
+}
+
+button:nth-child(3) {
+    font-size: 25px;
+    background-color: peachpuff;
+}
+
+button:nth-child(4) {
+    font-size: 32px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 32px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 32px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 32px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+    font-size: 32px;
+    background-color: #9477af;
+}
